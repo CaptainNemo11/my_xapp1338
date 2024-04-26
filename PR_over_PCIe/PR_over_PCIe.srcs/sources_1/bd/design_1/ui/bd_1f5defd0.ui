@@ -1,0 +1,46 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.24964",
+   "Default View_TopLeft":"-1907,-28",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port GPIO2_0 -pg 1 -lvl 2 -x 440 -y 40 -defaultsOSRD
+preplace port GPIO_0 -pg 1 -lvl 2 -x 440 -y 20 -defaultsOSRD
+preplace port M_AXIS_0 -pg 1 -lvl 2 -x 440 -y 60 -defaultsOSRD
+preplace port pcie_mgt_0 -pg 1 -lvl 2 -x 440 -y 80 -defaultsOSRD
+preplace port m_axis_aclk_0 -pg 1 -lvl 0 -x -80 -y 20 -defaultsOSRD
+preplace port m_axis_aresetn_0 -pg 1 -lvl 0 -x -80 -y 40 -defaultsOSRD
+preplace port sys_clk_0 -pg 1 -lvl 0 -x -80 -y 80 -defaultsOSRD
+preplace port sys_clk_gt_0 -pg 1 -lvl 0 -x -80 -y 60 -defaultsOSRD
+preplace port sys_rst_n_0 -pg 1 -lvl 0 -x -80 -y 100 -defaultsOSRD
+preplace port user_lnk_up_0 -pg 1 -lvl 2 -x 440 -y 100 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 190 -y 50 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 1 -x 190 -y 260 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 1 -x 190 -y 450 -defaultsOSRD
+preplace inst axis_dwidth_converter_0 -pg 1 -lvl 1 -x 190 -y 650 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 1 -x 190 -y 810 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 1 -x 190 -y 970 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 1 -x 190 -y 1210 -defaultsOSRD
+preplace netloc ARESETN_1 1 0 2 0 890 400
+preplace netloc m_axis_aclk_0_1 1 0 1 -20 20n
+preplace netloc m_axis_aresetn_0_1 1 0 1 -30 40n
+preplace netloc sys_clk_0_1 1 0 1 -50 80n
+preplace netloc sys_clk_gt_0_1 1 0 1 -40 60n
+preplace netloc sys_rst_n_0_1 1 0 1 -60 100n
+preplace netloc xdma_0_axi_aclk 1 0 2 -10 1050 370
+preplace netloc xdma_0_user_lnk_up 1 1 1 420 100n
+preplace netloc xdma_0_M_AXIS_H2C_1 1 0 2 20 730 380
+preplace netloc axi_interconnect_0_M00_AXI 1 0 2 20 130 360
+preplace netloc xdma_0_pcie_mgt 1 1 1 410 80n
+preplace netloc xdma_0_M_AXIS_H2C_2 1 0 2 20 1060 360
+preplace netloc axis_dwidth_converter_0_M_AXIS 1 1 1 400 60n
+preplace netloc S00_AXI_1 1 0 2 20 140 390
+preplace netloc axis_data_fifo_0_M_AXIS 1 0 2 10 540 360
+preplace netloc axi_gpio_0_GPIO 1 1 1 360 20n
+preplace netloc axi_gpio_0_GPIO2 1 1 1 390 40n
+levelinfo -pg 1 -80 190 440
+pagesize -pg 1 -db -bbox -sgen -260 -30 590 1360
+"
+}
+0
