@@ -1,0 +1,35 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-665,-876",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port M_AXIS_0 -pg 1 -lvl 4 -x 840 -y -520 -defaultsOSRD
+preplace port pcie_mgt_0 -pg 1 -lvl 4 -x 840 -y -490 -defaultsOSRD
+preplace port sys_clk_0 -pg 1 -lvl 0 -x -330 -y -460 -defaultsOSRD
+preplace port sys_rst_n_0 -pg 1 -lvl 0 -x -330 -y -420 -defaultsOSRD
+preplace port sys_clk_gt_0 -pg 1 -lvl 0 -x -330 -y -440 -defaultsOSRD
+preplace port aresetn_0 -pg 1 -lvl 0 -x -330 -y -500 -defaultsOSRD
+preplace port aclk_0 -pg 1 -lvl 0 -x -330 -y -520 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 1 -x 20 -y -400 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 2 -x 380 -y -520 -defaultsOSRD
+preplace inst axis_dwidth_converter_0 -pg 1 -lvl 3 -x 660 -y -470 -defaultsOSRD
+preplace netloc sys_clk_0_1 1 0 1 -290J -460n
+preplace netloc sys_rst_n_0_1 1 0 1 -310J -420n
+preplace netloc sys_clk_gt_0_1 1 0 1 -300J -440n
+preplace netloc aresetn_0_1 1 0 3 -310J -610 NJ -610 510J
+preplace netloc xdma_0_axi_aresetn 1 1 1 210 -530n
+preplace netloc xdma_0_axi_aclk 1 1 1 220 -510n
+preplace netloc aclk_0_1 1 0 3 -290J -590 200J -420 520J
+preplace netloc xdma_0_M_AXIS_H2C_1 1 1 1 190 -550n
+preplace netloc axis_dwidth_converter_0_M_AXIS 1 3 1 770 -520n
+preplace netloc xdma_0_pcie_mgt 1 1 3 180J -620 NJ -620 760J
+preplace netloc axis_data_fifo_0_M_AXIS 1 2 1 500 -520n
+levelinfo -pg 1 -330 20 380 660 840
+pagesize -pg 1 -db -bbox -sgen -470 -1000 960 260
+"
+}
+{
+   "da_clkrst_cnt":"1"
+}

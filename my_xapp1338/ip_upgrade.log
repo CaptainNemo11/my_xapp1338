@@ -1,0 +1,37 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2_AR75986 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Wed Mar 20 08:53:16 2024
+| Host         : localhost running 64-bit Ubuntu 22.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xcvu37p_CIV-fsvh2892-2-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clk_wiz'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of clk_wiz (xilinx.com:ip:clk_wiz:6.0 (Rev. 6)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2_AR75986 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
+| Date         : Wed Mar 20 08:52:31 2024
+| Host         : localhost running 64-bit Ubuntu 22.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xcvu37p_CIV-fsvh2892-2-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'vio_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of vio_0 (xilinx.com:ip:vio:3.0 (Rev. 19)) to Vivado generation flows.
+
